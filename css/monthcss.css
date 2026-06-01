@@ -1,0 +1,60 @@
+    *{
+        margin: 0;
+        padding: 0%;
+    }
+    body{
+        background-color: #3c1617;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    html{
+        height: 100%;
+    }
+    .content{
+        width: 850px;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color:#5E2F29;
+        background-color: #E9D5A2;
+        border-radius: 8px ;
+    }
+    .items{
+        display: flex;
+        gap:20px;
+    }
+    .month-summary{
+        display: flex;
+    }
+    .month-summary-items{
+        margin:20px;
+        padding:10px;
+        font-size: 23px;
+        border-radius: 16px;
+        border: solid #3c1617;
+        }
+    .itemcard{
+        border: 2px solid;
+        height: 380px;
+        width: 750px;
+        text-align: center;
+        overflow: auto;
+        font-size: 38px;
+        overflow: scroll;
+        scrollbar-width: none;
+        
+    }
+    ul{
+        list-style-type: disc;
+  padding-left: 40px;
+    }
+    li{
+        font-size: 28px;
+        text-align: left;
+        list-style-type: disc;
+        margin-left: 5px;
+        
+    }

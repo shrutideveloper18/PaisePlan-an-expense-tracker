@@ -1,0 +1,96 @@
+        body{
+            background-color: #5E2F29;
+        }
+        h1{
+            color: #E9D5A2;
+            text-align: center;
+            margin: 0px;
+            font-size: 72px;
+        }
+        h2{
+            color: #E9D5A2;
+            text-align: center;
+            margin-top: 2px;
+        }
+        .content{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .total{
+            background-color: #E9D5A2;
+            height: 280px;
+            width: 400px;
+            margin-top: 40px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        #totalheading{
+            color: #5E2F29;
+            font-size: 40px;
+            margin-top: 15px;
+            
+        }
+        #totalsaving{
+            margin-top: 50px;
+            font-size: 32px;
+            color: #5E2F29;
+
+        }
+        #quote{
+            margin-top: 50px;
+            color: #5E2F29;
+            font-size: 34px;
+        }
+        .month-wise{
+            margin-top: 190px;
+            
+        }
+        .monthwiseheading{
+            background-color: #E9D5A2;
+            width: 100vw;
+            height: 100px;
+            text-align: center;
+            color: #5E2F29;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .monthcards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+
+
+
+
+        .monthcard{
+            background-color: #E9D5A2;
+            height: 250px;
+            width: 260px;
+            margin: 15px;
+            border-radius: 6px;
+            
+        }
+        h3,.monthbudget,.monthspent,.monthsaved{
+            color: #5E2F29;
+        }
+        h3{
+            font-size: 32px;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .monthbudget,.monthspent,.monthsaved{
+            font-size: 26px;
+            text-align: center;
+            margin: 15px;
+        }
+        
